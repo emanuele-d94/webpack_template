@@ -58,5 +58,16 @@
         },
     };
 ```
-16. Select port in webpack.config.js , devServer port proerty
+16. Select port in webpack.config.js , devServer port property
 17. Launch the server: npx webpack serve
+
+18. Set multi config files:
+19. npm install --save-dev webpack-merge
+20. Remove webpack.config.js and add: 
+
+├── webpack.common.js
+
+├── webpack.dev.js
+
+├── webpack.prod.js
+
